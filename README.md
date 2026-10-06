@@ -1,5 +1,7 @@
 # Gunadarma Informatics PI skill
 
+![PI Informatika Gunadarma thumbnail](assets/thumbnail.png)
+
 A skill for writing and auditing *Penulisan Ilmiah* (PI) against the Informatics Program's 2025 handbook. The skill is in Indonesian and works with Claude Code, Codex, and Hermes Agent.
 
 [Read the skill](SKILL.md) · [Download the official PDF](https://drive.google.com/file/d/1PJt6gNmPIAneWNRWJ77XT3Lz-gTEb07o/view) · [Check sample conflicts](references/konflik-visual-lampiran.md)
