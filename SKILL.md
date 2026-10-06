@@ -9,18 +9,17 @@ metadata:
   hermes:
     tags: [Gunadarma, Informatika, PI, penulisan-ilmiah, pedoman-2025]
     category: productivity
-    related_skills: [pdf, docx, pi-docx-revisi-sidang]
 ---
 # Pedoman Penulisan Ilmiah Informatika Gunadarma 2025
 
-Acuan utama: Buku Pedoman Penulisan Ilmiah 2025, Program Studi Informatika, Fakultas Teknologi Industri, Universitas Gunadarma, PDF 36 halaman. Rujukan ditulis `PDF n / cetak m`; halaman PDF 1 adalah sampul tanpa teks, halaman PDF 2 sampai 36 berangka cetak 1 sampai 35. Gunakan pedoman asli yang diberikan pengguna untuk memeriksa ulang kutipan dan aturan bila ada edisi lebih baru. Referensi tambahan `references/contoh-dan-lampiran.md` menginventarisasi seluruh 14 tema contoh dan 10 lampiran. Untuk redaksi, tampilan, logo dan detail yang perlu dibaca persis, buka PDF pedoman asli. Salinan/transkripsi lengkap PDF tidak disertakan dalam distribusi publik skill ini.
+Acuan utama: Buku Pedoman Penulisan Ilmiah 2025, Program Studi Informatika, Fakultas Teknologi Industri, Universitas Gunadarma, PDF 36 halaman. Rujukan ditulis `PDF n / cetak m`; halaman PDF 1 adalah sampul tanpa teks, halaman PDF 2 sampai 36 berangka cetak 1 sampai 35. Gunakan pedoman asli yang diberikan pengguna untuk memeriksa ulang kutipan dan aturan bila ada edisi lebih baru. Referensi tambahan `references/contoh-dan-lampiran.md` menginventarisasi seluruh 14 tema contoh dan 10 lampiran. `references/cakupan-halaman.md` memetakan seluruh 36 halaman sumber ke bagian skill ini. Untuk redaksi, tampilan, logo dan detail yang perlu dibaca persis, buka PDF pedoman asli. Salinan/transkripsi lengkap PDF tidak disertakan dalam distribusi publik skill ini.
 
 ## Kapan dipakai
 
 - Memilih topik, membuat atau mengaudit PI Informatika Gunadarma berdasarkan pedoman 2025.
 - Menulis atau memperbaiki sampul, bagian awal, empat bagian isi, daftar pustaka, lampiran, jurnal PI, presentasi, serta berkas sidang/pascasidang.
 - Menjawab pertanyaan tentang format, isi, sitasi, bimbingan, revisi, hardcover, atau unggah perpustakaan.
-- Untuk revisi DOCX pascasidang, pakai bersama `pi-docx-revisi-sidang` dan `docx`. Untuk membaca sumber PDF, pakai `pdf`.
+- Untuk revisi DOCX pascasidang, baca dokumen Word secara berurutan termasuk tabel; periksa format font, paragraf, header tabel, bidang halaman, lalu render ke PDF dan cek halaman yang berubah. Untuk pedoman berbentuk PDF, ekstrak teks per halaman dan periksa tampilan halaman penting. Skill ini tidak mewajibkan skill eksternal tertentu.
 
 Jangan terapkan otomatis ke skripsi S1, prodi lain, atau edisi pedoman lain. Jangan anggap contoh judul, angka halaman contoh, nama pejabat, dan teks contoh sebagai persyaratan universal. Bedakan `WAJIB`, `SARAN`, `CONTOH`, dan `AMBIGU`; apabila pembimbing atau administrasi memberi ketentuan terkini yang berbeda, minta bukti resmi, catat perbedaan, dan jangan diam-diam menimpa isi pedoman.
 
@@ -134,5 +133,6 @@ Bagian akhir: Daftar Pustaka dan Lampiran [PDF 15 / cetak 14]. Minimal 10 refere
 ## Rujukan pendamping
 
 - `references/contoh-dan-lampiran.md`: 14 tema/bentuk dan contoh judul, semua Lampiran 1-10 dengan struktur, contoh, dan catatan penerapan.
+- `references/cakupan-halaman.md`: indeks cakupan PDF halaman 1-36 terhadap bagian-bagian skill dan konteks pemakaian.
 - PDF pedoman asli: sumber primer untuk redaksi dan tampilan halaman. Tidak didistribusikan bersama skill; mintalah kepada pengguna atau ambil dari kanal resmi Prodi Informatika. Jangan menyamakan ringkasan skill dengan salinan sah naskah asli.
-- `pi-docx-revisi-sidang` menyimpan alur forensik DOCX untuk naskah yang sudah disidangkan. Referensi ringkasnya bukan pengganti pedoman lengkap ini.
+- Untuk revisi pascasidang, cocokkan setiap catatan penguji terhadap naskah dan pedoman. Revisi isi dahulu, lalu nomor subbagian, gambar/tabel, Daftar Isi, abstrak, dan tata letak; jangan menimpa dokumen yang telah diajukan. Validasi DOCX dan PDF akhir secara visual.
