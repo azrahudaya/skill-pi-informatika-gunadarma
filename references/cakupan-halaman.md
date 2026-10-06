@@ -8,7 +8,7 @@ Gunakan daftar ini untuk memastikan setiap halaman Buku Pedoman Penulisan Ilmiah
 | 2 | 1 | Daftar isi bab 1 sampai 5 dan rincian subbagian | Susunan heading SKILL.md |
 | 3 | 2 | Lanjutan daftar isi dan indeks Lampiran 1 sampai 10 | Referensi `contoh-dan-lampiran.md` |
 | 4 | 3 | Tujuan pedoman, fokus PI, kebebasan memilih bentuk | §1 |
-| 5 | 4 | Empat syarat topik, tema 1 sampai 4 | §1; referensi contoh |
+| 5 | 4 | Empat batasan bentuk isi PI, tema 1 sampai 4 | §1; referensi contoh |
 | 6 | 5 | Kelanjutan tema 4, tema 5 sampai 8 | Referensi contoh |
 | 7 | 6 | Kelanjutan tema 8, tema 9 sampai 12 | Referensi contoh |
 | 8 | 7 | Kelanjutan tema 12, tema 13 dan 14, pengembangan tema | §1; referensi contoh |
@@ -45,5 +45,5 @@ Gunakan daftar ini untuk memastikan setiap halaman Buku Pedoman Penulisan Ilmiah
 
 - Menulis naskah: §1 sampai §6; jangan abaikan Lampiran 1 sampai 10 saat format contoh diperlukan.
 - Audit file siap sidang: tambah §7 dan bagian presentasi di §8. Periksa naskah sampul sampai lampiran, bukan potongan bab saja.
-- Pascasidang: tambah tenggat, catatan revisi, validasi pembimbing/penguji yang berwenang, tanda tangan, berkas akhir dan unggah di §7 sampai §8.
+- Pascasidang: tambah tenggat, catatan revisi, pemeriksaan dan validasi oleh dosen revisi, tanda tangan sesuai tahap, berkas akhir dan unggah di §7 sampai §8.
 - Setiap tahap: baca bagian `Ketidakselarasan` di SKILL.md sebelum memberi keputusan pada butir yang bertentangan. Jika data atau aturan resmi terbaru belum tersedia, tandai `belum dapat diuji` atau `pedoman ambigu`, bukan `sesuai`.

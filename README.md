@@ -1,12 +1,12 @@
-# Gunadarma Informatics PI Skill
+# Gunadarma Informatics PI skill
 
-A writing and review skill for the 2025 *Penulisan Ilmiah* (PI) guide issued by the Informatics Program, Faculty of Industrial Technology, Universitas Gunadarma. The skill itself is in Indonesian, matching the guide and the documents it is intended to check. This repository is an independent study aid, not a university publication.
+A cross-agent guide to the Informatics Program's 2025 *Penulisan Ilmiah* (PI) handbook. The skill is in Indonesian; this README is in English. Independent work, not an official Universitas Gunadarma publication.
 
-The guide covers topic selection, manuscript structure, formatting, citations, supervision, the examination, revisions, presentation, and final submission. `SKILL.md` identifies requirements by PDF page and printed page. `references/contoh-dan-lampiran.md` indexes the guide's fourteen example topic groups and ten appendices; `references/cakupan-halaman.md` maps all 36 PDF pages to the relevant skill sections. The skill distinguishes stated requirements from illustrations and records contradictions rather than silently resolving them.
+`SKILL.md` covers the manuscript, formatting, citations, supervision, defense, revisions, and submission. Its references index all 36 PDF pages, 14 example topic groups, and 10 appendices. The [visual conflict notes](references/konflik-visual-lampiran.md) distinguish written rules from inconsistent samples. Consult the original handbook for exact wording and artwork; neither the PDF nor its full transcript is distributed here.
 
 ## Install
 
-Clone the repository, then copy both `SKILL.md` and `references/` into a skill directory. The relative path to `references/` must remain intact. The commands below are for a Unix shell; on Windows, use the equivalent copy operation or WSL. The folder name matches the skill's `name` field.
+Clone once, then copy the whole skill folder to the agent you use. These commands use a Unix shell (or WSL on Windows).
 
 ```sh
 git clone https://github.com/azrahudaya/skill-pi-informatika-gunadarma.git
@@ -14,40 +14,45 @@ cd skill-pi-informatika-gunadarma
 SKILL_NAME=pedoman-pi-informatika-gunadarma-2025
 ```
 
-### Claude Code
+| Agent | Personal skill directory | Explicit invocation |
+| --- | --- | --- |
+| Claude Code | `~/.claude/skills/$SKILL_NAME/` | `/pedoman-pi-informatika-gunadarma-2025` |
+| Codex | `~/.agents/skills/$SKILL_NAME/` | `$pedoman-pi-informatika-gunadarma-2025` |
+| Hermes Agent | `~/.hermes/skills/productivity/$SKILL_NAME/` | `/skill pedoman-pi-informatika-gunadarma-2025` |
+
+For Claude Code:
 
 ```sh
-mkdir -p "$HOME/.claude/skills/$SKILL_NAME/references"
-cp SKILL.md "$HOME/.claude/skills/$SKILL_NAME/"
-cp -R references/. "$HOME/.claude/skills/$SKILL_NAME/references/"
+DEST="$HOME/.claude/skills/$SKILL_NAME"
+mkdir -p "$DEST/references"
+cp SKILL.md "$DEST/"
+cp -R references/. "$DEST/references/"
 ```
 
-Start a new Claude Code session. Ask it to use `/pedoman-pi-informatika-gunadarma-2025` when reviewing an Informatics PI, or let it select the skill from your request. For one project only, place the same folder under that project's `.claude/skills/` instead of your home directory. [Claude Code skill locations](https://code.claude.com/docs/en/skills).
-
-### Codex
+For Codex:
 
 ```sh
-mkdir -p "$HOME/.agents/skills/$SKILL_NAME/references"
-cp SKILL.md "$HOME/.agents/skills/$SKILL_NAME/"
-cp -R references/. "$HOME/.agents/skills/$SKILL_NAME/references/"
+DEST="$HOME/.agents/skills/$SKILL_NAME"
+mkdir -p "$DEST/references"
+cp SKILL.md "$DEST/"
+cp -R references/. "$DEST/references/"
 ```
 
-Restart Codex if the skill does not appear. Invoke it as `$pedoman-pi-informatika-gunadarma-2025` or describe the PI task and let Codex select it. For project-only use, place the folder under the project's `.agents/skills/`. [Codex skill locations](https://developers.openai.com/codex/skills).
-
-### Hermes Agent
+For Hermes Agent:
 
 ```sh
-mkdir -p "$HOME/.hermes/skills/productivity/$SKILL_NAME/references"
-cp SKILL.md "$HOME/.hermes/skills/productivity/$SKILL_NAME/"
-cp -R references/. "$HOME/.hermes/skills/productivity/$SKILL_NAME/references/"
+DEST="$HOME/.hermes/skills/productivity/$SKILL_NAME"
+mkdir -p "$DEST/references"
+cp SKILL.md "$DEST/"
+cp -R references/. "$DEST/references/"
 ```
 
-Start a new Hermes session or run `/reload-skills` in an existing one. Check with `hermes skills list`, then load explicitly with `/skill pedoman-pi-informatika-gunadarma-2025` if needed. If you use a named Hermes profile, install into that profile's skills directory instead. [Hermes documentation](https://hermes-agent.nousresearch.com/docs).
+Start a new agent session after installation. Hermes also supports `/reload-skills`. For project-only installation, use `.claude/skills/` or `.agents/skills/` under that project. For a named Hermes profile, install under that profile's `skills/` directory. See the [Claude Code](https://code.claude.com/docs/en/skills), [Codex](https://developers.openai.com/codex/skills), and [Hermes](https://hermes-agent.nousresearch.com/docs) documentation for current skill locations.
 
-## Use and limits
+## Use
 
-Supply the original 2025 PDF and the PI manuscript when asking for an exact audit. The original document is needed to inspect the cover, logo, placement, signatures, and any wording the skill summarizes. The PDF and a full text transcription are not redistributed here.
+Provide the handbook PDF and the latest PI manuscript when requesting an exact audit. For example: “Audit this PI against the 2025 Informatics handbook. Report the rule, manuscript evidence, handbook page, and required correction. Mark unresolved conflicts as ambiguous.” Do not infer compliance from the page index alone. Confirm current administrative instructions with the program before sending files or printing a final copy.
 
-Ask the agent to report each finding with the rule, evidence in the manuscript, the guide page, and a proposed fix. It must distinguish noncompliance from an untestable condition or an ambiguity in the guide. Do not treat appendix sample names, page counts, or titles as required values. Confirm time-sensitive examination and submission instructions with the Informatics Program before sending documents.
+Check the package with `python3 scripts/validate.py` and `python3 -m unittest discover -s tests -v`. GitHub Actions runs both on pushes and pull requests. These checks cover packaging and traceability, not whether a student's manuscript complies with the handbook.
 
-Source guide: [Informatics Program PI information](https://fti.gunadarma.ac.id/informatika/?page_id=563). This repository does not replace the applicable official guide or a supervisor's verified instructions.
+The source handbook is linked from the [Informatics Program's PI page](https://fti.gunadarma.ac.id/informatika/?page_id=563). The authored skill is marked proprietary pending a separate reuse-license decision; the original handbook is not licensed by this repository.
