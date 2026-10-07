@@ -41,15 +41,21 @@ def main() -> None:
 
     references = set(re.findall(r"`(references/[^`]+\.md)`", skill))
     check(references == {
+        "references/alur-audit.md",
+        "references/administrasi.md",
+        "references/ketidakselarasan.md",
         "references/cakupan-halaman.md",
         "references/contoh-dan-lampiran.md",
         "references/konflik-visual-lampiran.md",
     }, "SKILL.md must reference every packaged reference")
     for relative in references:
         check((ROOT / relative).is_file(), f"missing reference: {relative}")
-    for text in (skill, readme, examples, coverage, visual):
+    published_files = [skill, readme, examples, coverage, visual]
+    published_files.extend((ROOT / relative).read_text(encoding="utf-8") for relative in sorted(references))
+    published_files.append((ROOT / "examples/contoh-audit.md").read_text(encoding="utf-8"))
+    for text in published_files:
         check("\u2014" not in text, "em dash found")
-    published_text = "\n".join((skill, readme, examples, coverage, visual))
+    published_text = "\n".join(published_files)
     check(re.search(r"(?:/home/[^/\s]+/|C:\\Users\\[^\\\s]+\\)", published_text) is None, "local path leaked")
     check(not list(ROOT.rglob("*.pdf")), "source PDF must not be included in this package")
     print("PASS: skill metadata, 14 topics, 10 appendices, 36-page index, references, public-file checks")
