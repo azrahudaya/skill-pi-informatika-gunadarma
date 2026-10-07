@@ -25,7 +25,7 @@ Jangan terapkan otomatis ke skripsi S1, prodi lain, atau edisi pedoman lain. Jan
 
 ## Alur kerja
 
-Untuk audit naskah, ikuti `references/alur-audit.md` dan laporkan batas berkas yang tersedia. Untuk membuat draf naskah lengkap, termasuk inden paragraf isi, bagian awal, Daftar Isi, dan placeholder kuning yang belum terisi, baca `references/draf-dokumen.md` sebelum membuat dokumen. Inden 1,25 cm adalah pilihan draf pengguna, bukan angka yang ditetapkan pedoman.
+Untuk audit naskah, ikuti `references/alur-audit.md` dan laporkan batas berkas yang tersedia. Untuk membuat draf naskah lengkap, termasuk inden paragraf isi, bagian awal, Daftar Isi, dan placeholder kuning yang belum terisi, baca `references/draf-dokumen.md` sebelum membuat dokumen. Untuk visual berbasis data atau lampiran kode, baca `references/visual-dan-lampiran-kode.md`: gunakan grafik hanya ketika membantu pemeriksaan hasil, lalu cetak kode yang relevan secara lengkap dan verifikasi terhadap sumber serta hasil eksekusi. Inden 1,25 cm adalah pilihan draf pengguna, bukan angka yang ditetapkan pedoman.
 
 1. Temukan PDF pedoman dan dokumen PI versi terakhir. Pastikan dokumen benar-benar edisi Prodi Informatika 2025. Rujuk halaman PDF dan angka tercetak agar lokasi aturan bisa diverifikasi. Untuk audit format visual, baca `references/konflik-visual-lampiran.md` sebelum menilai contoh sebagai patokan.
 2. Tentukan jenis tugas: perencanaan topik, penulisan, audit, sidang, atau pengumpulan. Untuk audit, buat matriks `aturan | status | bukti lokasi dokumen | halaman pedoman | tindakan` dan periksa semua butir relevan di bawah. Jangan mengklaim kelulusan hanya dari pencarian kata; cek isi, tata letak, nomor halaman, dan berkas akhir.
@@ -62,7 +62,7 @@ Bagian 1:
 - Metode Penelitian memaparkan semua kegiatan dan langkah tanpa menutupinya, secara kronologis dan sistematis sampai orang lain dapat mengulangi penelitian persis. Jelaskan bahan/peralatan bila ada. Untuk informatika, uraian dapat meliputi alat, algoritma/metode yang dipilih, prosedur implementasi yang mengacu pada metode itu, komponen, komputer dan perangkat lunak, diagram alur, serta pembuatan program. Alinea pertama menerangkan tahapan penelitian, alinea kedua perangkat keras dan perangkat lunak yang digunakan [PDF 13 / cetak 12].
 - Sistematika Penulisan menguraikan bagian demi bagian sebagai narasi, bukan daftar bernomor [PDF 13 / cetak 12].
 
-Bagian 2: jelaskan teori, definisi, dan konsep yang menunjang penelitian; hasil penelitian terdahulu dapat memperkuat uraian. Jika membahas alat bantu atau program, batasi pada perkembangan terkini, kelebihan, keuntungan, dan keterbatasan yang relevan; karakteristiknya harus berkaitan dengan pencapaian solusi dan tujuan penelitian, bukan uraian manual penggunaan. WAJIB memuat minimal dua artikel pendukung dari jurnal atau prosiding. Jangan gunakan Wikipedia, Blogspot, WordPress, atau sumber sejenis yang belum terjamin kebenarannya sebagai sumber tinjauan pustaka. Ikuti format rujukan Prodi Informatika [PDF 13 / cetak 12].
+Bagian 2: jelaskan teori, definisi, dan konsep yang menunjang penelitian; hasil penelitian terdahulu dapat memperkuat uraian. Jika membahas alat bantu atau program, batasi pada perkembangan terkini, kelebihan, keuntungan, dan keterbatasan yang relevan; karakteristiknya harus berkaitan dengan pencapaian solusi dan tujuan penelitian, bukan uraian manual penggunaan. WAJIB memuat minimal dua artikel pendukung dari jurnal atau prosiding. Jangan gunakan Wikipedia, Blogspot, WordPress, atau sumber sejenis yang belum terjamin kebenarannya sebagai sumber tinjauan pustaka. Ikuti format rujukan Prodi Informatika [PDF 13 / cetak 12]. Untuk tugas perbandingan penelitian terdahulu atau *state of the art*, baca `references/penelitian-terdahulu.md`: contoh mahasiswa menaruh tabel dan sintesis gap, tetapi pedoman tidak mewajibkan tabel; isi sel hanya dari artikel yang telah diverifikasi.
 
 Bagian 3: uraikan tahapan kegiatan dan hasil yang menjawab tujuan pada subbagian 1.3; gunakan kalimat informasi, bukan perintah. Bentuk pembahasan bergantung pada jenis PI, bukan daftar semua tahap yang wajib dipaksakan pada tiap topik [PDF 14 / cetak 13]:
 
@@ -117,6 +117,8 @@ Baca `references/ketidakselarasan.md` untuk daftar 18 konflik dan contoh. Jangan
 
 - `references/alur-audit.md`: input audit, pemeriksaan isi dan visual, bukti dan status laporan.
 - `references/draf-dokumen.md`: urutan draf lengkap, inden alinea, placeholder kuning, dan cek DOCX/PDF.
+- `references/penelitian-terdahulu.md`: contoh tabel perbandingan dan sintesis gap berbasis teks artikel yang diperiksa.
+- `references/visual-dan-lampiran-kode.md`: pemilihan visual hitam putih serta lampiran kode lengkap yang diuji.
 - `references/administrasi.md`: aturan bimbingan sampai pengumpulan dari pedoman 2025.
 - `references/ketidakselarasan.md`: 18 konflik internal pedoman dan contoh lampiran.
 - `references/contoh-dan-lampiran.md`: 14 tema/bentuk dan contoh judul, semua Lampiran 1-10 dengan struktur, contoh, dan catatan penerapan.
