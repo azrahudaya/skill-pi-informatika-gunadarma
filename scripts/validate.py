@@ -42,6 +42,7 @@ def main() -> None:
     references = set(re.findall(r"`(references/[^`]+\.md)`", skill))
     check(references == {
         "references/alur-audit.md",
+        "references/draf-dokumen.md",
         "references/administrasi.md",
         "references/ketidakselarasan.md",
         "references/cakupan-halaman.md",
