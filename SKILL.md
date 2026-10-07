@@ -25,7 +25,7 @@ Jangan terapkan otomatis ke skripsi S1, prodi lain, atau edisi pedoman lain. Jan
 
 ## Alur kerja
 
-Untuk audit naskah, ikuti `references/alur-audit.md` dan laporkan batas berkas yang tersedia.
+Untuk audit naskah, ikuti `references/alur-audit.md` dan laporkan batas berkas yang tersedia. Untuk membuat draf naskah lengkap, termasuk inden paragraf isi, bagian awal, Daftar Isi, dan placeholder kuning yang belum terisi, baca `references/draf-dokumen.md` sebelum membuat dokumen. Inden 1,25 cm adalah pilihan draf pengguna, bukan angka yang ditetapkan pedoman.
 
 1. Temukan PDF pedoman dan dokumen PI versi terakhir. Pastikan dokumen benar-benar edisi Prodi Informatika 2025. Rujuk halaman PDF dan angka tercetak agar lokasi aturan bisa diverifikasi. Untuk audit format visual, baca `references/konflik-visual-lampiran.md` sebelum menilai contoh sebagai patokan.
 2. Tentukan jenis tugas: perencanaan topik, penulisan, audit, sidang, atau pengumpulan. Untuk audit, buat matriks `aturan | status | bukti lokasi dokumen | halaman pedoman | tindakan` dan periksa semua butir relevan di bawah. Jangan mengklaim kelulusan hanya dari pencarian kata; cek isi, tata letak, nomor halaman, dan berkas akhir.
@@ -116,6 +116,7 @@ Baca `references/ketidakselarasan.md` untuk daftar 18 konflik dan contoh. Jangan
 ## Rujukan pendamping
 
 - `references/alur-audit.md`: input audit, pemeriksaan isi dan visual, bukti dan status laporan.
+- `references/draf-dokumen.md`: urutan draf lengkap, inden alinea, placeholder kuning, dan cek DOCX/PDF.
 - `references/administrasi.md`: aturan bimbingan sampai pengumpulan dari pedoman 2025.
 - `references/ketidakselarasan.md`: 18 konflik internal pedoman dan contoh lampiran.
 - `references/contoh-dan-lampiran.md`: 14 tema/bentuk dan contoh judul, semua Lampiran 1-10 dengan struktur, contoh, dan catatan penerapan.

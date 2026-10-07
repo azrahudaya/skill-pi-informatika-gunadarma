@@ -36,6 +36,8 @@ Mulai sesi baru agar agent mengenali skill. PDF pedoman tidak disertakan di repo
 - Kerangka PI: "Bantu buat kerangka PI Informatika untuk topik [topik] berdasarkan pedoman 2025. Pisahkan aturan wajib dari contoh, dan jangan buat hasil penelitian atau sumber pustaka fiktif."
 - Sidang: "Cek kesiapan sidang PI saya berdasarkan berkas yang saya berikan. Bedakan syarat pedoman 2025 dari prosedur administrasi yang harus dicek ulang ke kanal resmi. Jangan mengirim berkas."
 
+Saat membuat draf naskah lengkap, pakai [panduan inden dan placeholder](references/draf-dokumen.md): paragraf isi menjorok 1,25 cm sebagai pilihan format draf, sedangkan data yang belum diketahui memakai `(.....................)` dengan stabilo kuning. Angka inden itu bukan ketentuan eksplisit pedoman.
+
 Hasil audit memakai status `sesuai`, `tidak sesuai`, `belum dapat diuji`, atau `pedoman ambigu`. [Alur audit](references/alur-audit.md) menjelaskan arti status dan bukti yang diperlukan. [Daftar konflik pedoman](references/ketidakselarasan.md) mencegah contoh lampiran dibaca sebagai aturan baru. Contoh keluaran bukan sertifikat kelulusan PI.
 
 ## Pemeriksaan paket
