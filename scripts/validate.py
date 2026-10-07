@@ -43,6 +43,8 @@ def main() -> None:
     check(references == {
         "references/alur-audit.md",
         "references/draf-dokumen.md",
+        "references/penelitian-terdahulu.md",
+        "references/visual-dan-lampiran-kode.md",
         "references/administrasi.md",
         "references/ketidakselarasan.md",
         "references/cakupan-halaman.md",
