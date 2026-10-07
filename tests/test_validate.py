@@ -16,7 +16,7 @@ class PackageValidationTest(unittest.TestCase):
         self.addCleanup(self.workspace.cleanup)
         self.package = Path(self.workspace.name) / "skill"
         self.package.mkdir()
-        for source in [ROOT / "README.md", ROOT / "SKILL.md", *(ROOT / "references").glob("*.md")]:
+        for source in [ROOT / "README.md", ROOT / "SKILL.md", *(ROOT / "references").glob("*.md"), *(ROOT / "examples").glob("*.md")]:
             target = self.package / source.relative_to(ROOT)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, target)
@@ -42,6 +42,13 @@ class PackageValidationTest(unittest.TestCase):
         result = self.validate()
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("closing ---", result.stderr)
+
+    def test_rejects_missing_new_reference(self) -> None:
+        missing = self.package / "references/administrasi.md"
+        missing.unlink()
+        result = self.validate()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("missing reference", result.stderr)
 
     def test_rejects_missing_page(self) -> None:
         path = self.package / "references/cakupan-halaman.md"

@@ -25,6 +25,8 @@ Jangan terapkan otomatis ke skripsi S1, prodi lain, atau edisi pedoman lain. Jan
 
 ## Alur kerja
 
+Untuk audit naskah, ikuti `references/alur-audit.md` dan laporkan batas berkas yang tersedia.
+
 1. Temukan PDF pedoman dan dokumen PI versi terakhir. Pastikan dokumen benar-benar edisi Prodi Informatika 2025. Rujuk halaman PDF dan angka tercetak agar lokasi aturan bisa diverifikasi. Untuk audit format visual, baca `references/konflik-visual-lampiran.md` sebelum menilai contoh sebagai patokan.
 2. Tentukan jenis tugas: perencanaan topik, penulisan, audit, sidang, atau pengumpulan. Untuk audit, buat matriks `aturan | status | bukti lokasi dokumen | halaman pedoman | tindakan` dan periksa semua butir relevan di bawah. Jangan mengklaim kelulusan hanya dari pencarian kata; cek isi, tata letak, nomor halaman, dan berkas akhir.
 3. Pisahkan aturan eksplisit dari contoh. Isi variabel (identitas, tanda tangan, foto, tanggal sidang/lulus, pejabat, referensi, hasil uji, jumlah halaman, tautan program) hanya dari data nyata. Jangan membuat hasil penelitian, pustaka, tanda tangan, atau fakta administratif palsu.
@@ -94,42 +96,13 @@ Bagian akhir: Daftar Pustaka dan Lampiran [PDF 15 / cetak 14]. Minimal 10 refere
 - Jangan tulis `dll`, `sbb`, `a.l`; uraikan. Singkatan lain dieja panjang saat pertama muncul diikuti singkatan dalam kurung, setelah itu boleh singkatannya [PDF 19].
 - Utamakan padanan Indonesia untuk kata asing. Jika belum terserap, miringkan; pengecualian nama [PDF 11, 19]. Jangan gunakan kata ganti orang `Anda, Kita, Kamu, Saya` dalam tubuh ilmiah; pakai kalimat berita/informasi, bukan perintah. Redaksi formulir pernyataan resmi yang memakai `saya` merupakan konteks berbeda [PDF 19 / cetak 18; PDF 26 / cetak 25].
 
-## 7. Bimbingan, sidang, dan revisi [PDF 20-21 / cetak 19-20]
+## 7. Bimbingan, sidang, dan penyerahan
 
-- Pembimbing membimbing penulisan hingga presentasi. Bimbingan sedikitnya 10 pertemuan, bawa buku bimbingan setiap konsultasi. Pedoman: https://fti.gunadarma.ac.id/informatika/?page_id=563 ; buku bimbingan: https://fti.gunadarma.ac.id/informatika/?page_id=558 . Mahasiswa WAJIB membuat penulisan dalam format jurnal [PDF 20 / cetak 19].
-- Setelah naskah selesai dan pembimbing memberi ACC Surat Persetujuan Ujian Sidang Penulisan Penelitian/Kerja Praktek, daftar sidang. Siapkan KRS aktif berisi mata kuliah PI, surat ACC PDF, formulir sertifikat setara sarjana muda di https://sidang.gunadarma.ac.id/files/FORM-ISIAN-SERTIFIKAT-SETARA-SARJANA-MUDA.pdf . Pedoman mengarahkan pengiriman ke `sidangpi.fti@gmail.com` dengan subjek `DAFTAR_NPM_NAMA_NO HP (WA)`; tunggu balasan. Rincian pendaftaran juga dicantumkan pada menu `Informasi Wajib` dengan judul pengumuman `Informasi Pendaftaran Sidang PI FTI` [PDF 20 / cetak 19]. Periksa alamat/prosedur terbaru sebelum mengirim data pribadi.
-- Busana sidang pria: kemeja putih lengan panjang, celana hitam bukan jeans, dasi hitam, rambut rapi/tidak gondrong, sepatu gelap. Wanita: kemeja/blus putih, rok hitam bukan jeans, rambut rapi, kerudung putih jika berhijab, sepatu gelap [PDF 21 / cetak 20]. Bawa naskah PDF lengkap sampul sampai lampiran dan materi berkas presentasi.
-- Sesudah sidang, terima catatan perbaikan dari dosen revisi, perbaiki sesuai catatan, kirim kembali kepada dosen revisi untuk dikoreksi, lalu tunggu dosen revisi memvalidasi hasilnya sebelum mencetak naskah untuk hardcover final. Tenggat perbaikan maksimal dua minggu sejak tanggal sidang [PDF 21 / cetak 20].
-
-## 8. Produk akhir, berkas, presentasi, tanda tangan, perpustakaan [PDF 22-24 / cetak 21-23]
-
-- PDF 22 menyebut setelah lulus sidang, file yang diserahkan ke Prodi `LyX/LaTeX dan PDF (*.PDF)`. Pencetakan minimal 150 dpi, laser dianjurkan. Jilid berbentuk buku 3 eksemplar untuk penguji (asli atau fotokopi), bagian pokok minimal 50 halaman di luar bagian awal/akhir. Presentasi disediakan softcopy flashdisk/CD dan hardcopy transparansi. Punggung hardcover: Judul PI, NPM, Nama Mahasiswa, Tahun Penulisan. Pedoman memperingatkan ketidaksesuaian dengan ketentuan bagian ini `akan DITOLAK`; jangan lunakkan menjadi sekadar kemungkinan, dan cek penerapan tiap butir pada tahap penyerahan yang dimaksud [PDF 22 / cetak 21]. Alat konversi Word ke PDF seperti Adobe Acrobat Distiller/CutePDF dan fitur PDF OpenOffice hanya contoh cara, bukan kewajiban perangkat lunak.
-- Daftar `Susunan Isi File Penulisan Ilmiah yang terpisah` secara eksplisit: cover; pengesahan; kata pengantar; abstrak; daftar isi; daftar tabel; daftar gambar; daftar lampiran; file terpisah tiap Bagian 1, Bagian 2, dan seterusnya; daftar pustaka; lampiran/listing program [PDF 22 / cetak 21]. Daftar ini tidak menyebut Pernyataan Orisinalitas walaupun struktur naskah awal mewajibkannya [PDF 9]. Jangan menghapus pernyataan dari naskah.
-- Presentasi maksimal 15 slide utama dan 10 menit; slide lampiran disimpan untuk dibuka jika diperlukan. Template https://fti.gunadarma.ac.id/informatika/?page_id=1054 . Isi pokok PI. Contoh rangka: slide 1 judul/nama/NPM/pembimbing; slide 2 latar belakang dan rumusan masalah; slide 3 tujuan; slide 4 metode; slide 5 pembahasan; slide 10 kesimpulan; slide di antaranya tidak dirinci [PDF 23 / cetak 22]. Jangan ubah slide contoh 10 menjadi syarat tepat 10 slide.
-- Tanda tangan Ketua Prodi: pedoman mencantumkan agenda bimbingan, CD berlabel berisi jurnal, PPT presentasi, program, PI lengkap sampai lampiran dalam Word `*.doc`, dan bukti pengiriman. Jurnal memakai `Petunjuk Format Jurnal Penulisan Ilmiah`; butir pengiriman berbunyi `Penulisan dalam format Microsoft Word` tanpa memperjelas apakah tiap berkas selain PI juga wajib Word. Kirim agenda, jurnal, penulisan, program ke `pi.teknikinformatika@gmail.com`, subjek `Npm_Nama`, berkas tertulis `tahun pembuatan_npm_nama. rar`; untuk lampiran >25 MB pedoman 2025 menyebut ikon Google Drive di sebelah attach files, tab Upload, pilih berkas, lalu upload. Periksa ulang antarmuka dan syarat terkini sebelum mengirim [PDF 23 / cetak 22]. `Peraturan baru per 1 September 2025`: bawa cover, pengesahan yang ditandatangani pembimbing, kata pengantar di map bening ke Prodi Informatika D421. Tidak dijelaskan apakah aturan baru menambah atau mengganti syarat lama; verifikasi dengan prodi sebelum membawa/mengirim [PDF 23].
-- Tanda tangan Kasubag Sidang PI: serahkan hardcover yang telah ditandatangani pembimbing dan Ketua Prodi, surat revisi, cetakan barcode Studentsite ke Gedung Administrasi [PDF 23 / cetak 22].
-- Perpustakaan: sebelum upload, pengesahan harus punya 3 tanda tangan dan stempel. https://library.gunadarma.ac.id/ > Layanan > Deposit System > Penulisan Ilmiah > Unggah Penulisan Baru; petunjuk https://library.gunadarma.ac.id/info/tata-cara-upload-file-pi-dan-skripsi . Ikuti ketentuan sumbang buku di https://library.gunadarma.ac.id/info/tata-cara-sumbang-buku-terkini-14-agustus . Sertifikat setara sarjana muda diambil dengan bukti pembayaran sumbangan buku ke Loket Ijazah dan Transkrip, Kampus D Gedung 2 Lantai 1 [PDF 24 / cetak 23]. Cek tautan dan aturan administrasi terkini.
+Baca `references/administrasi.md` hanya untuk tugas bimbingan, sidang, revisi, presentasi, tanda tangan, atau pengumpulan. Syarat dari pedoman 2025 perlu dicek ulang pada kanal resmi sebelum dipakai sebagai prosedur terkini.
 
 ## Ketidakselarasan yang tidak boleh disembunyikan
 
-1. Ukuran: `A4 (21,5 x 29,7 cm)` dalam pedoman [PDF 16] berbeda dari ukuran A4 standar. Bila sedang membuat dokumen, pilih setelan A4 dan ungkap perbedaan; jika diminta tepat 21,5 cm, konfirmasi [PDF 16].
-2. Subbagian: `HURUF KAPITAL` pada daftar ukuran vs Title Case dengan kata tugas kecil pada rincian dan lampiran. Untuk draf gunakan Title Case sesuai contoh, tandai konflik [PDF 16-17, 34].
-3. Abstrak bilingual: dua bahasa diminta, tetapi satu halaman hanya `jika memungkinkan`; Lampiran 4 hanya mencontohkan Indonesia. Batas 200 kata tidak menjelaskan gabungan atau per bahasa [PDF 10, 28].
-4. Bagian awal mewajibkan pernyataan orisinalitas, tetapi daftar file terpisah tidak mencantumkannya; urutan Kata Pengantar dan Abstrak dalam daftar file terpisah juga terbalik dibanding struktur naskah [PDF 9, 22].
-5. Penyerahan ke Prodi menyebut LyX/LaTeX + PDF, sedangkan syarat tanda tangan Ketua Prodi menyebut PI lengkap di CD dalam Word `*.doc` dan `Penulisan dalam format Microsoft Word` pada bagian pengiriman. Cakupan Word untuk jurnal tidak dirinci secara terpisah; tak ada aturan prioritas format [PDF 22-23].
-6. Tabel lintas halaman: teks meminta judul setiap halaman, tetapi fitur contoh `Repeat header rows` biasanya mengulang header kolom; cek caption dan header secara visual [PDF 17].
-7. `Disarankan minimal 5 tahun di belakang` tidak jelas apakah usia atau kebaruan referensi [PDF 18]. Jangan jadikan patokan otomatis.
-8. Contoh Lampiran 9 memakai sitasi `(Kemenristekdikti, 2015)` sedangkan entri Lampiran 10 bertahun 2016; cocokkan tahun sumber sebenarnya, jangan salin ketidaksesuaian [PDF 35-36].
-9. Lampiran 1 menulis `JUDUL` dua kali dan tidak menampilkan rumusan tujuan yang disebut pada rincian sampul/halaman judul; jangan menyimpulkan judul diulang atau tujuan boleh hilang [PDF 9-10, 25].
-10. Contoh daftar isi punya salah ketik `ORIGINALITAS DAN PUBILKASI`; gunakan nama bagian yang tepat dan konsisten dengan naskah [PDF 26, 30].
-11. Pedoman meminta tiga eksemplar berjilid berbentuk buku untuk penguji, tetapi tidak mengatakan ketiganya hardcover. Hardcover final baru boleh dicetak setelah revisi divalidasi; waktu dan bentuk penjilidan eksemplar penguji tidak dirinci [PDF 21-22].
-12. Peraturan 1 September 2025 tentang map bening tidak menyatakan apakah menggantikan syarat CD/agenda/email; nama berkas `. rar` juga terpisah spasi di PDF. Cek prodi [PDF 23].
-13. Contoh kata pengantar dan contoh sitasi/referensi mengandung ejaan keliru dan nama pejabat historis; jangan perbanyak salah ketik atau menganggap nama pejabat abadi [PDF 29, 35-36].
-14. Ilustrasi Lampiran 1 menggunakan logo sekitar 4,03 × 3,90 cm dan nama universitas 18 pt, berbeda dari aturan logo berdiameter 6 cm dan nama universitas 14 pt [PDF 9-10, 25]. Contoh bukan ukuran yang harus disalin.
-15. Judul `KATA PENGANTAR` pada contoh berukuran 14 pt, sedangkan aturan khusus meminta 12 pt tebal [PDF 11, 29]. Jangan menyembunyikan perbedaan saat mengaudit.
-16. Contoh Daftar Isi punya sub-subbagian 2.1.1 tanpa saudara 2.1.2 dan sejumlah nomor halaman kosong, padahal aturan melarang sub-subbagian tunggal dan meminta isi daftar sesuai naskah [PDF 11, 17, 30]. Contoh belum lengkap.
-17. Lampiran 8 menunjukkan kerangka judul utama rata kiri, normal 12 pt, sedangkan ketentuan naskah meminta judul utama tengah, tebal, 14 pt. Ambil hierarki dan catatan subbagian dari contoh, jangan salin tipografi kerangkanya [PDF 17, 34].
-18. Kotak foto contoh Lampiran 2 tidak berukuran tepat 3 × 4 cm dan berada di kiri bawah; blok tanggal/TTD berada di kanan bawah. Pada Lampiran 3, dua penandatangan pertama berdampingan dan Ketua Prodi di tengah bawah [PDF 26-27]. Keterangan dan pemisahan contoh dari aturan ada di `references/konflik-visual-lampiran.md`.
+Baca `references/ketidakselarasan.md` untuk daftar 18 konflik dan contoh. Jangan putuskan aturan dari satu contoh lampiran; catat dua halaman sumber dan tandai `pedoman ambigu` bila perlu konfirmasi.
 
 ## Verifikasi minimum sebelum menyatakan selesai
 
@@ -142,6 +115,9 @@ Bagian akhir: Daftar Pustaka dan Lampiran [PDF 15 / cetak 14]. Minimal 10 refere
 
 ## Rujukan pendamping
 
+- `references/alur-audit.md`: input audit, pemeriksaan isi dan visual, bukti dan status laporan.
+- `references/administrasi.md`: aturan bimbingan sampai pengumpulan dari pedoman 2025.
+- `references/ketidakselarasan.md`: 18 konflik internal pedoman dan contoh lampiran.
 - `references/contoh-dan-lampiran.md`: 14 tema/bentuk dan contoh judul, semua Lampiran 1-10 dengan struktur, contoh, dan catatan penerapan.
 - `references/cakupan-halaman.md`: indeks cakupan PDF halaman 1-36 terhadap bagian-bagian skill dan konteks pemakaian.
 - `references/konflik-visual-lampiran.md`: tata letak contoh, ukuran terukur pada PDF, serta perbedaan contoh dengan ketentuan tertulis. Wajib dibaca untuk sampul, pernyataan, pengesahan, kata pengantar, daftar isi, heading, dan pustaka.
