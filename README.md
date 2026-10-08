@@ -42,6 +42,33 @@ Saat membuat draf naskah lengkap, pakai [panduan inden dan placeholder](referenc
 
 Hasil audit memakai status `sesuai`, `tidak sesuai`, `belum dapat diuji`, atau `pedoman ambigu`. [Alur audit](references/alur-audit.md) menjelaskan arti status dan bukti yang diperlukan. [Daftar konflik pedoman](references/ketidakselarasan.md) mencegah contoh lampiran dibaca sebagai aturan baru. Contoh keluaran bukan sertifikat kelulusan PI.
 
+## Contoh hasil PI
+
+Contoh nyata pemakaian skill ini: [Dalsilens-gundar](https://github.com/kafri8889/Dalsilens-gundar), PI Prodi Informatika 2025 tentang alat bantu mobile *real-time* untuk penderita dikromasi. Repositori itu memuat tiga dokumen terpisah yang semuanya bersumber dari LaTeX:
+
+| Dokumen          | Berkas sumber            | Hasil                    |
+|------------------|--------------------------|--------------------------|
+| Penulisan Ilmiah | `main.tex`               | `main.pdf` (82 halaman)  |
+| Manual book      | `manual-book/manual.tex` | `manual-book/manual.pdf` |
+| Paper            | `paper/paper.tex`        | `paper/paper.pdf`        |
+
+Struktur yang dipakai bisa dijadikan acuan saat menyusun PI sendiri:
+
+```
+main.tex                  ← Berkas utama PI
+halaman/                  ← Sampul, orisinalitas, pengesahan, abstrak, kata pengantar,
+                             daftar lampiran, daftar pustaka, lampiran
+bagian/                   ← Empat bagian isi (Pendahuluan sampai Penutup)
+gambar/                   ← Gambar, diagram, dan tangkapan layar
+bib/main.bib              ← Basis data pustaka (biblatex + biber)
+manual-book/manual.tex    ← Manual book (LaTeX mandiri)
+paper/paper.tex           ← Paper, dengan isi Indonesia dan Inggris
+```
+
+Setiap dokumen di-compile dari berkas utamanya masing-masing. Daftar Pustaka memakai `biblatex` dan `biber`, sedangkan gambar dirujuk lewat `\ref` agar nomor dan Daftar Gambar tetap konsisten. Repositori contoh ini juga menyertakan BERKAS DOCX dan PDF siap kumpul, sehingga berguna sebagai pembanding saat memeriksa kecocokan naskah sumber dengan berkas akhir.
+
+Contoh ini dipakai untuk menunjukkan bentuk keluaran, bukan sebagai format wajib. Contoh keluaran tetap bukan sertifikat kelulusan PI.
+
 ## Pemeriksaan paket
 
 ```sh
