@@ -98,7 +98,7 @@ Bagian akhir: Daftar Pustaka dan Lampiran [PDF 15 / cetak 14]. Minimal 10 refere
 
 ## 7. Bimbingan, sidang, dan penyerahan
 
-Baca `references/administrasi.md` untuk tugas bimbingan, jadwal, berkas, dan pengumpulan. Untuk menindaklanjuti lembar catatan perbaikan dosen penguji sidang, standar tahapan SDLC (Prototyping dan Waterfall), evaluasi empiris (WER, Precision/Recall/F1, latensi), instrumen baku System Usability Scale (SUS), serta susunan lampiran naskah, baca `references/revisi-sidang-dan-evaluasi.md`. Syarat dari pedoman 2025 perlu dicek ulang pada kanal resmi sebelum dipakai sebagai prosedur terkini.
+Baca `references/administrasi.md` untuk tugas bimbingan, jadwal, berkas, dan pengumpulan. Untuk standar perancangan visual, prompt pembuatan diagram AI yang bebas slop, pemisahan diagram alur kerja vs alur metodologi, pemodelan UML, navigasi, storyboard, serta aturan batasan masalah dan tinjauan pustaka, baca `references/pedoman-visual-dan-evaluasi.md`. Syarat dari pedoman 2025 perlu dicek ulang pada kanal resmi sebelum dipakai sebagai prosedur terkini.
 
 ## Ketidakselarasan yang tidak boleh disembunyikan
 
@@ -124,6 +124,6 @@ Baca `references/ketidakselarasan.md` untuk daftar 18 konflik dan contoh. Jangan
 - `references/contoh-dan-lampiran.md`: 14 tema/bentuk dan contoh judul, semua Lampiran 1-10 dengan struktur, contoh, dan catatan penerapan.
 - `references/cakupan-halaman.md`: indeks cakupan PDF halaman 1-36 terhadap bagian-bagian skill dan konteks pemakaian.
 - `references/konflik-visual-lampiran.md`: tata letak contoh, ukuran terukur pada PDF, serta perbedaan contoh dengan ketentuan tertulis. Wajib dibaca untuk sampul, pernyataan, pengesahan, kata pengantar, daftar isi, heading, dan pustaka.
-- `references/revisi-sidang-dan-evaluasi.md`: sepuluh pola catatan kritis dosen penguji, metodologi SDLC (Prototyping/Waterfall), metrik evaluasi empiris (WER, F1, latensi), instrumen baku skor SUS, dan susunan lampiran baku.
+- `references/pedoman-visual-dan-evaluasi.md`: standar perancangan visual, prompt pembuatan diagram AI yang bebas slop, pemisahan diagram sistem vs metodologi, pemodelan UML, navigasi, storyboard, dan batasan masalah.
 - PDF pedoman asli: [berkas resmi Prodi Informatika 2025](https://drive.google.com/file/d/1PJt6gNmPIAneWNRWJ77XT3Lz-gTEb07o/view), sumber primer untuk redaksi dan tampilan halaman. Berkas pada tautan resmi telah dicocokkan dengan salinan sumber yang dipakai menyusun skill. PDF tidak didistribusikan ulang dalam repo ini; jangan samakan ringkasan skill dengan naskah asli.
 - Untuk revisi pascasidang, cocokkan setiap catatan penguji terhadap naskah dan pedoman. Revisi isi dahulu, lalu nomor subbagian, gambar/tabel, Daftar Isi, abstrak, dan tata letak; jangan menimpa dokumen yang telah diajukan. Validasi DOCX dan PDF akhir secara visual.
