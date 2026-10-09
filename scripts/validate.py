@@ -50,6 +50,7 @@ def main() -> None:
         "references/cakupan-halaman.md",
         "references/contoh-dan-lampiran.md",
         "references/konflik-visual-lampiran.md",
+        "references/revisi-sidang-dan-evaluasi.md",
     }, "SKILL.md must reference every packaged reference")
     for relative in references:
         check((ROOT / relative).is_file(), f"missing reference: {relative}")

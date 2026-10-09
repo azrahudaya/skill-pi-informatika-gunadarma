@@ -26,6 +26,7 @@ class UsageContractTest(unittest.TestCase):
         self.assertIn("`references/alur-audit.md`", skill)
         self.assertIn("`references/administrasi.md`", skill)
         self.assertIn("`references/ketidakselarasan.md`", skill)
+        self.assertIn("`references/revisi-sidang-dan-evaluasi.md`", skill)
 
     def test_split_preserves_source_rules_and_conflicts(self) -> None:
         current = (ROOT / "SKILL.md").read_text(encoding="utf-8")
